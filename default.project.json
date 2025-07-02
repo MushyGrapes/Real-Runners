@@ -15,6 +15,21 @@
         "$path": "src/StarterPlayer/StarterCharacterScripts"
       },
       "$ignoreUnknownInstances": true
+    },
+
+    "ServerStorage": {
+      "$className": "ServerStorage",
+      "$path": "src/ServerStorage",
+      "$ignoreUnknownInstances": true
+    },
+
+    "Workspace": {
+      "$className": "Workspace",
+      "$path": "src/Workspace",
+      "$ignoreUnknownInstances": true
     }
+
+    
+
   }
 }
