@@ -1,15 +1,12 @@
 --!nocheck
-local normal_zombie = game:GetService("ServerStorage").assets.normal_zombie
-local zombies = {}
+local zombies = require(script.Parent.FSM.Zombies)
 
-
-for i = 1,5 do
-    table.insert(zombies,normal_zombie:Clone())
-    zombies[i].Parent = workspace
-end
-
+task.wait(10)
 while wait(0.1) do
-    for num in pairs(zombies) do
-       zombies[num].Humanoid.MoveTo(zombies[num].Humanoid, Vector3.new(5,5,5))
+
+    for num = 1,zombies.config.max, 1 do
+		zombies.config.enemies[num].Humanoid.MoveTo(zombies.config.enemies[num].Humanoid, workspace.Boxstrangler.HumanoidRootPart.Position)
     end
+
+    
 end
