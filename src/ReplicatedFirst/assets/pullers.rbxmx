@@ -1,0 +1,595 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+	<Meta name="ExplicitAutoJoints">true</Meta>
+	<External>null</External>
+	<External>nil</External>
+	<Item class="Part" referent="RBX6927668958D14AA0A7731F406281070D">
+		<Properties>
+			<bool name="Anchored">false</bool>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<bool name="AudioCanCollide">true</bool>
+			<float name="BackParamA">-0.5</float>
+			<float name="BackParamB">0.5</float>
+			<token name="BackSurface">0</token>
+			<token name="BackSurfaceInput">0</token>
+			<float name="BottomParamA">-0.5</float>
+			<float name="BottomParamB">0.5</float>
+			<token name="BottomSurface">0</token>
+			<token name="BottomSurfaceInput">0</token>
+			<CoordinateFrame name="CFrame">
+				<X>0</X>
+				<Y>1.5</Y>
+				<Z>0</Z>
+				<R00>1</R00>
+				<R01>2.38419204e-07</R01>
+				<R02>-9.5365948e-07</R02>
+				<R10>-2.38418977e-07</R10>
+				<R11>1</R11>
+				<R12>2.384146e-07</R12>
+				<R20>9.53659537e-07</R20>
+				<R21>-2.38414373e-07</R21>
+				<R22>1</R22>
+			</CoordinateFrame>
+			<bool name="CanCollide">false</bool>
+			<bool name="CanQuery">true</bool>
+			<bool name="CanTouch">false</bool>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="CastShadow">false</bool>
+			<string name="CollisionGroup">Default</string>
+			<int name="CollisionGroupId">0</int>
+			<Color3uint8 name="Color3uint8">4288914085</Color3uint8>
+			<PhysicalProperties name="CustomPhysicalProperties">
+				<CustomPhysics>false</CustomPhysics>
+			</PhysicalProperties>
+			<bool name="DefinesCapabilities">false</bool>
+			<bool name="EnableFluidForces">false</bool>
+			<float name="FrontParamA">-0.5</float>
+			<float name="FrontParamB">0.5</float>
+			<token name="FrontSurface">0</token>
+			<token name="FrontSurfaceInput">0</token>
+			<float name="LeftParamA">-0.5</float>
+			<float name="LeftParamB">0.5</float>
+			<token name="LeftSurface">0</token>
+			<token name="LeftSurfaceInput">0</token>
+			<bool name="Locked">false</bool>
+			<bool name="Massless">true</bool>
+			<token name="Material">256</token>
+			<string name="MaterialVariantSerialized"></string>
+			<string name="Name">pullers</string>
+			<CoordinateFrame name="PivotOffset">
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+				<R00>1</R00>
+				<R01>0</R01>
+				<R02>0</R02>
+				<R10>0</R10>
+				<R11>1</R11>
+				<R12>0</R12>
+				<R20>0</R20>
+				<R21>0</R21>
+				<R22>1</R22>
+			</CoordinateFrame>
+			<float name="Reflectance">0</float>
+			<float name="RightParamA">-0.5</float>
+			<float name="RightParamB">0.5</float>
+			<token name="RightSurface">0</token>
+			<token name="RightSurfaceInput">0</token>
+			<int name="RootPriority">0</int>
+			<Vector3 name="RotVelocity">
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+			</Vector3>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<float name="TopParamA">-0.5</float>
+			<float name="TopParamB">0.5</float>
+			<token name="TopSurface">0</token>
+			<token name="TopSurfaceInput">0</token>
+			<float name="Transparency">1</float>
+			<Vector3 name="Velocity">
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+			</Vector3>
+			<token name="formFactorRaw">1</token>
+			<token name="shape">0</token>
+			<Vector3 name="size">
+				<X>1</X>
+				<Y>1</Y>
+				<Z>1</Z>
+			</Vector3>
+		</Properties>
+		<Item class="Attachment" referent="RBX27048616D6104B57AE9C256070A80858">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<CoordinateFrame name="CFrame">
+					<X>4.00006104</X>
+					<Y>-9.53691369e-07</Y>
+					<Z>3.81466725e-06</Z>
+					<R00>1</R00>
+					<R01>2.38419432e-07</R01>
+					<R02>-9.53652204e-07</R02>
+					<R10>-2.38419204e-07</R10>
+					<R11>1</R11>
+					<R12>2.38412554e-07</R12>
+					<R20>9.53652261e-07</R20>
+					<R21>-2.38412326e-07</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<string name="Name">Attachment</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<bool name="Visible">false</bool>
+			</Properties>
+		</Item>
+		<Item class="Attachment" referent="RBXC762CFA30CD9454D8506A2EF462B70B7">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<CoordinateFrame name="CFrame">
+					<X>8.00018311</X>
+					<Y>-3.8147964e-06</Y>
+					<Z>1.5258669e-05</Z>
+					<R00>1</R00>
+					<R01>4.76839546e-07</R01>
+					<R02>-1.90728974e-06</R02>
+					<R10>-4.76838636e-07</R10>
+					<R11>1</R11>
+					<R12>4.76821242e-07</R12>
+					<R20>1.90728997e-06</R20>
+					<R21>-4.76820333e-07</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<string name="Name">Attachment</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<bool name="Visible">false</bool>
+			</Properties>
+		</Item>
+		<Item class="Attachment" referent="RBXC141CF62F12B4BC1B7A5BD90DC0C6051">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<CoordinateFrame name="CFrame">
+					<X>12.0003662</X>
+					<Y>-8.5833617e-06</Y>
+					<Z>3.43320062e-05</Z>
+					<R00>1</R00>
+					<R01>7.15260342e-07</R01>
+					<R02>-2.8609129e-06</R02>
+					<R10>-7.15258295e-07</R10>
+					<R11>1</R11>
+					<R12>7.15226065e-07</R12>
+					<R20>2.86091336e-06</R20>
+					<R21>-7.15224019e-07</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<string name="Name">Attachment</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<bool name="Visible">false</bool>
+			</Properties>
+		</Item>
+		<Item class="Attachment" referent="RBX4D139A62D3054D18949BD0CBD4C02845">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<CoordinateFrame name="CFrame">
+					<X>-8.00029755</X>
+					<Y>1.50210881e-05</Y>
+					<Z>-6.00795829e-05</Z>
+					<R00>1</R00>
+					<R01>1.43052694e-06</R01>
+					<R02>-5.72169438e-06</R02>
+					<R10>-1.43051875e-06</R10>
+					<R11>1</R11>
+					<R12>1.43041734e-06</R12>
+					<R20>5.7216962e-06</R20>
+					<R21>-1.43040916e-06</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<string name="Name">Attachment</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<bool name="Visible">false</bool>
+			</Properties>
+		</Item>
+		<Item class="Attachment" referent="RBXFD6AE191810B4E589AFFE4D8471929E1">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<CoordinateFrame name="CFrame">
+					<X>-12.0006638</X>
+					<Y>2.16974422e-05</Y>
+					<Z>-8.67830749e-05</Z>
+					<R00>1</R00>
+					<R01>1.19210404e-06</R01>
+					<R02>-4.7681151e-06</R02>
+					<R10>-1.19209835e-06</R10>
+					<R11>1</R11>
+					<R12>1.19202411e-06</R12>
+					<R20>4.76811647e-06</R20>
+					<R21>-1.19201843e-06</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<string name="Name">Attachment</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<bool name="Visible">false</bool>
+			</Properties>
+		</Item>
+		<Item class="Attachment" referent="RBXA6D3A863A73148D8B8FD6F1713253F54">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<CoordinateFrame name="CFrame">
+					<X>-3.9998703</X>
+					<Y>6.43709382e-06</Y>
+					<Z>-2.57465272e-05</Z>
+					<R00>1</R00>
+					<R01>1.66895052e-06</R01>
+					<R02>-6.67525865e-06</R02>
+					<R10>-1.66893938e-06</R10>
+					<R11>1</R11>
+					<R12>1.6688067e-06</R12>
+					<R20>6.67526137e-06</R20>
+					<R21>-1.66879556e-06</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<string name="Name">Attachment</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<bool name="Visible">false</bool>
+			</Properties>
+		</Item>
+		<Item class="Attachment" referent="RBX6A209579B2504770BB18C1754F86756A">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<CoordinateFrame name="CFrame">
+					<X>2.53564954</X>
+					<Y>-4.58107525e-06</Y>
+					<Z>-3.53573942</Z>
+					<R00>0.707113564</R00>
+					<R01>5.75591741e-07</R01>
+					<R02>0.707099974</R02>
+					<R10>-1.01150499e-06</R10>
+					<R11>1</R11>
+					<R12>1.97506978e-07</R12>
+					<R20>-0.707099974</R20>
+					<R21>-8.54895006e-07</R21>
+					<R22>0.707113564</R22>
+				</CoordinateFrame>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<string name="Name">Attachment</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<bool name="Visible">false</bool>
+			</Properties>
+		</Item>
+		<Item class="Attachment" referent="RBX4CA9E73C7DB44B1D8C170F4BAAE3C3B8">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<CoordinateFrame name="CFrame">
+					<X>5.36425734</X>
+					<Y>-1.05347754e-05</Y>
+					<Z>-6.36428261</Z>
+					<R00>0.707114279</R00>
+					<R01>5.7560959e-07</R01>
+					<R02>0.707099378</R02>
+					<R10>-1.24992778e-06</R10>
+					<R11>1</R11>
+					<R12>4.35910607e-07</R12>
+					<R20>-0.707099378</R20>
+					<R21>-1.19206163e-06</R21>
+					<R22>0.707114279</R22>
+				</CoordinateFrame>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<string name="Name">Attachment</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<bool name="Visible">false</bool>
+			</Properties>
+		</Item>
+		<Item class="Attachment" referent="RBXE8B071BEB0E1489E9005A604805F3CCD">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<CoordinateFrame name="CFrame">
+					<X>8.19291496</X>
+					<Y>-1.83960474e-05</Y>
+					<Z>-9.19286442</Z>
+					<R00>0.707114875</R00>
+					<R01>5.75630565e-07</R01>
+					<R02>0.707098663</R02>
+					<R10>-1.48835022e-06</R10>
+					<R11>1</R11>
+					<R12>6.743104e-07</R12>
+					<R20>-0.707098663</R20>
+					<R21>-1.52922541e-06</R21>
+					<R22>0.707114875</R22>
+				</CoordinateFrame>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<string name="Name">Attachment</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<bool name="Visible">false</bool>
+			</Properties>
+		</Item>
+		<Item class="Attachment" referent="RBXAC6764B6B6E649F195CB48C48F0276D2">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<CoordinateFrame name="CFrame">
+					<X>-5.36442709</X>
+					<Y>1.79264298e-05</Y>
+					<Z>6.36390972</Z>
+					<R00>0.707126498</R00>
+					<R01>9.8910661e-08</R01>
+					<R02>0.707087159</R02>
+					<R10>-1.72682326e-06</R10>
+					<R11>1</R11>
+					<R12>1.58703472e-06</R12>
+					<R20>-0.707087159</R20>
+					<R21>-2.34324852e-06</R21>
+					<R22>0.707126498</R22>
+				</CoordinateFrame>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<string name="Name">Attachment</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<bool name="Visible">false</bool>
+			</Properties>
+		</Item>
+		<Item class="Attachment" referent="RBXBB40BF03D1A54D0FADAB3D624C4C1438">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<CoordinateFrame name="CFrame">
+					<X>-8.19320965</X>
+					<Y>2.57881766e-05</Y>
+					<Z>9.19252872</Z>
+					<R00>0.707125783</R00>
+					<R01>9.88744802e-08</R01>
+					<R02>0.707087874</R02>
+					<R10>-1.48839524e-06</R10>
+					<R11>1</R11>
+					<R12>1.3486416e-06</R12>
+					<R20>-0.707087874</R20>
+					<R21>-2.0060852e-06</R21>
+					<R22>0.707125783</R22>
+				</CoordinateFrame>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<string name="Name">Attachment</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<bool name="Visible">false</bool>
+			</Properties>
+		</Item>
+		<Item class="Attachment" referent="RBXB64B5166A4E34060A0177AAC5977B35C">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<CoordinateFrame name="CFrame">
+					<X>-2.53559756</X>
+					<Y>8.15694875e-06</Y>
+					<Z>3.535254</Z>
+					<R00>0.707127094</R00>
+					<R01>9.89501459e-08</R01>
+					<R02>0.707086444</R02>
+					<R10>-1.96525116e-06</R10>
+					<R11>1</R11>
+					<R12>1.82542351e-06</R12>
+					<R20>-0.707086444</R20>
+					<R21>-2.6804089e-06</R21>
+					<R22>0.707127094</R22>
+				</CoordinateFrame>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<string name="Name">Attachment</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<bool name="Visible">false</bool>
+			</Properties>
+		</Item>
+		<Item class="Attachment" referent="RBX77A7D9C1E7334C8DA72058DE27256662">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<CoordinateFrame name="CFrame">
+					<X>-2.53578591</X>
+					<Y>-4.94070264e-07</Y>
+					<Z>-3.53599787</Z>
+					<R00>-0.707099974</R00>
+					<R01>5.75560136e-07</R01>
+					<R02>0.707113564</R02>
+					<R10>1.39631936e-07</R10>
+					<R11>1</R11>
+					<R12>-6.74327907e-07</R12>
+					<R20>-0.707113564</R20>
+					<R21>-3.78081609e-07</R21>
+					<R22>-0.707099974</R22>
+				</CoordinateFrame>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<string name="Name">Attachment</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<bool name="Visible">false</bool>
+			</Properties>
+		</Item>
+		<Item class="Attachment" referent="RBX8C8D3066A688455E9310FB7C6C6A8AAF">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<CoordinateFrame name="CFrame">
+					<X>-5.36443663</X>
+					<Y>-1.84312626e-06</Y>
+					<Z>-6.36471415</Z>
+					<R00>-0.707099378</R00>
+					<R01>2.38391095e-07</R01>
+					<R02>0.707114279</R02>
+					<R10>-9.8802424e-08</R10>
+					<R11>1</R11>
+					<R12>-4.35932691e-07</R12>
+					<R20>-0.707114279</R20>
+					<R21>-3.78112304e-07</R21>
+					<R22>-0.707099378</R22>
+				</CoordinateFrame>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<string name="Name">Attachment</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<bool name="Visible">false</bool>
+			</Properties>
+		</Item>
+		<Item class="Attachment" referent="RBX8F5E1331253047A29E6447223CEF797B">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<CoordinateFrame name="CFrame">
+					<X>-10.1928358</X>
+					<Y>-1.17210884e-05</Y>
+					<Z>-9.19347191</Z>
+					<R00>-0.707087874</R00>
+					<R01>-5.75567526e-07</R01>
+					<R02>0.707125783</R02>
+					<R10>-1.01157195e-06</R10>
+					<R11>1</R11>
+					<R12>-1.97564134e-07</R12>
+					<R20>-0.707125783</R20>
+					<R21>-8.55003748e-07</R21>
+					<R22>-0.707087874</R22>
+				</CoordinateFrame>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<string name="Name">Attachment</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<bool name="Visible">false</bool>
+			</Properties>
+		</Item>
+		<Item class="Attachment" referent="RBX91CFFE5B95034D5F8630017C2215D0A3">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<CoordinateFrame name="CFrame">
+					<X>5.36403036</X>
+					<Y>1.62575743e-05</Y>
+					<Z>6.36426115</Z>
+					<R00>-0.707087159</R00>
+					<R01>-9.12731025e-07</R01>
+					<R02>0.707126498</R02>
+					<R10>-1.25000361e-06</R10>
+					<R11>1</R11>
+					<R12>4.08267624e-08</R12>
+					<R20>-0.707126498</R20>
+					<R21>-8.55042515e-07</R21>
+					<R22>-0.707087159</R22>
+				</CoordinateFrame>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<string name="Name">Attachment</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<bool name="Visible">false</bool>
+			</Properties>
+		</Item>
+		<Item class="Attachment" referent="RBX33363C711832441B8C9C5817780DD190">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<CoordinateFrame name="CFrame">
+					<X>8.19267082</X>
+					<Y>2.22119197e-05</Y>
+					<Z>9.19306469</Z>
+					<R00>-0.707087874</R00>
+					<R01>-5.75567526e-07</R01>
+					<R02>0.707125783</R02>
+					<R10>-1.01157195e-06</R10>
+					<R11>1</R11>
+					<R12>-1.97564134e-07</R12>
+					<R20>-0.707125783</R20>
+					<R21>-8.55003748e-07</R21>
+					<R22>-0.707087874</R22>
+				</CoordinateFrame>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<string name="Name">Attachment</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<bool name="Visible">false</bool>
+			</Properties>
+		</Item>
+		<Item class="Attachment" referent="RBXF052F33D43C644AB9909041584272E88">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<CoordinateFrame name="CFrame">
+					<X>2.53535295</X>
+					<Y>8.3954792e-06</Y>
+					<Z>3.5354104</Z>
+					<R00>-0.707086444</R00>
+					<R01>-1.24989208e-06</R01>
+					<R02>0.707127094</R02>
+					<R10>-1.48843526e-06</R10>
+					<R11>1</R11>
+					<R12>2.79213793e-07</R12>
+					<R20>-0.707127094</R20>
+					<R21>-8.55084636e-07</R21>
+					<R22>-0.707086444</R22>
+				</CoordinateFrame>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<string name="Name">Attachment</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<bool name="Visible">false</bool>
+			</Properties>
+		</Item>
+		<Item class="Weld" referent="RBXDE53FA4D0A784CDC9BC4D999769DD04D">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<CoordinateFrame name="C0">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<CoordinateFrame name="C1">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<bool name="Enabled">true</bool>
+				<string name="Name">Weld</string>
+				<Ref name="Part0">RBX6927668958D14AA0A7731F406281070D</Ref>
+				<Ref name="Part1">null</Ref>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+		</Item>
+	</Item>
+</roblox>
