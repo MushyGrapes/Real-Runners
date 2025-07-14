@@ -2,7 +2,7 @@
 	<Meta name="ExplicitAutoJoints">true</Meta>
 	<External>null</External>
 	<External>nil</External>
-	<Item class="MeshPart" referent="RBXF4366282C15B4457A0102486B5D8900C">
+	<Item class="MeshPart" referent="RBX917FA86F7F2E42CCBDC4B77D0FC1E6B3">
 		<Properties>
 			<SharedString name="AeroMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
 			<bool name="Anchored">false</bool>
@@ -17,33 +17,33 @@
 			<token name="BottomSurface">0</token>
 			<token name="BottomSurfaceInput">0</token>
 			<CoordinateFrame name="CFrame">
-				<X>0</X>
-				<Y>0</Y>
-				<Z>0</Z>
-				<R00>1</R00>
-				<R01>-2.84213842e-14</R01>
-				<R02>-2.61479727e-12</R02>
-				<R10>2.8420798e-14</R10>
-				<R11>1</R11>
-				<R12>7.95807864e-13</R12>
-				<R20>2.61476734e-12</R20>
-				<R21>-7.95797835e-13</R21>
+				<X>-20.2330303</X>
+				<Y>51.8695221</Y>
+				<Z>-41.0000572</Z>
+				<R00>1.00000381</R00>
+				<R01>-2.38419574e-07</R01>
+				<R02>9.53671474e-07</R02>
+				<R10>1.19209886e-07</R10>
+				<R11>1.00000381</R11>
+				<R12>-2.3841767e-07</R12>
+				<R20>-4.76834401e-07</R20>
+				<R21>1.19208522e-07</R21>
 				<R22>1</R22>
 			</CoordinateFrame>
 			<bool name="CanCollide">false</bool>
 			<bool name="CanQuery">true</bool>
 			<bool name="CanTouch">true</bool>
 			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
-			<bool name="CastShadow">true</bool>
+			<bool name="CastShadow">false</bool>
 			<string name="CollisionGroup">detection</string>
-			<int name="CollisionGroupId">3</int>
-			<Color3uint8 name="Color3uint8">4279430868</Color3uint8>
+			<int name="CollisionGroupId">-1</int>
+			<Color3uint8 name="Color3uint8">4279303167</Color3uint8>
 			<PhysicalProperties name="CustomPhysicalProperties">
 				<CustomPhysics>false</CustomPhysics>
 			</PhysicalProperties>
 			<bool name="DefinesCapabilities">false</bool>
-			<bool name="DoubleSided">true</bool>
-			<bool name="EnableFluidForces">true</bool>
+			<bool name="DoubleSided">false</bool>
+			<bool name="EnableFluidForces">false</bool>
 			<token name="FluidFidelityInternal">0</token>
 			<float name="FrontParamA">-0.5</float>
 			<float name="FrontParamB">0.5</float>
@@ -68,7 +68,7 @@
 			<token name="LeftSurfaceInput">0</token>
 			<bool name="Locked">false</bool>
 			<bool name="Massless">true</bool>
-			<token name="Material">1584</token>
+			<token name="Material">272</token>
 			<string name="MaterialVariantSerialized"></string>
 			<Content name="MeshId"><url>rbxassetid://12205636999</url></Content>
 			<string name="Name">Detection</string>
@@ -89,7 +89,7 @@
 				<R22>1</R22>
 			</CoordinateFrame>
 			<float name="Reflectance">0</float>
-			<token name="RenderFidelity">0</token>
+			<token name="RenderFidelity">2</token>
 			<float name="RightParamA">-0.5</float>
 			<float name="RightParamB">0.5</float>
 			<token name="RightSurface">0</token>
@@ -101,13 +101,13 @@
 				<Z>0</Z>
 			</Vector3>
 			<int64 name="SourceAssetId">12205637050</int64>
-			<BinaryString name="Tags">cGxy</BinaryString>
+			<BinaryString name="Tags"></BinaryString>
 			<Content name="TextureID"><null></null></Content>
 			<float name="TopParamA">-0.5</float>
 			<float name="TopParamB">0.5</float>
 			<token name="TopSurface">0</token>
 			<token name="TopSurfaceInput">0</token>
-			<float name="Transparency">0</float>
+			<float name="Transparency">0.899999976</float>
 			<Vector3 name="UnscaledCofm">
 				<X>NAN</X>
 				<Y>NAN</Y>
@@ -136,7 +136,7 @@
 				<Z>30</Z>
 			</Vector3>
 		</Properties>
-		<Item class="Vector3Value" referent="RBX55D7E7901D1F4493A6C8B7883EE75E48">
+		<Item class="Vector3Value" referent="RBX98B7D57E63D74AAAB9F1740C19FE4BD3">
 			<Properties>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -151,7 +151,7 @@
 				</Vector3>
 			</Properties>
 		</Item>
-		<Item class="ManualWeld" referent="RBXE37DFF9D7AD94FC9B5E02D1BB3636E6C">
+		<Item class="ManualWeld" referent="RBX0409BD2DA8ED4DD2AAC35B8473402D77">
 			<Properties>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<CoordinateFrame name="C0">
@@ -186,7 +186,7 @@
 				<bool name="DefinesCapabilities">false</bool>
 				<bool name="Enabled">true</bool>
 				<string name="Name">ManualWeld</string>
-				<Ref name="Part0">RBXF4366282C15B4457A0102486B5D8900C</Ref>
+				<Ref name="Part0">RBX917FA86F7F2E42CCBDC4B77D0FC1E6B3</Ref>
 				<Ref name="Part1">null</Ref>
 				<int64 name="SourceAssetId">-1</int64>
 				<BinaryString name="Tags"></BinaryString>

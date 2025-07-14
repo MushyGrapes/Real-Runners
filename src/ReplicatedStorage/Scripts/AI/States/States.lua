@@ -4,12 +4,4 @@ local States = {
     searching = searching,
     chasing = chasing
 }
-
-
-
-
-
-
-
-
 return States

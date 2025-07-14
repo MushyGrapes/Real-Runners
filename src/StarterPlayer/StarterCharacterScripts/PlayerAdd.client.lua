@@ -1,30 +1,13 @@
-local players = game:GetService("Players")
-local ss = game:GetService("ServerStorage")
-local Detection = ss.assets.Detection
-local pullers = ss.assets.pullers:clone()
+local player = game:GetService("Players").LocalPlayer
+local ReplicatedFirst = game:GetService("ReplicatedFirst")
+local Detection = ReplicatedFirst.assets.Detection:Clone()
+local pullers = ReplicatedFirst.assets.pullers:clone()
+local char = player.Character or player.CharacterAdded:Wait()
 
-
-
-
-
-
-
-local function onPlayerAdded(plr)
-	plr.CharacterAdded:Connect(function(char)
-		local clone = Detection:Clone()
-		clone.Parent = char
-		clone.ManualWeld.Part1 = char.HumanoidRootPart
-		pullers.Parent = char
-		pullers.Weld.Part1 = char.HumanoidRootPart
-	end)
+local function onPlayerAdded()
+	Detection.Parent = char
+	Detection.ManualWeld.Part1 = char.HumanoidRootPart
+	pullers.Parent = char
+	pullers.Weld.Part1 = char.HumanoidRootPart
 end
-
-
-
-
-
-
-
-
-
-players.PlayerAdded:Connect(onPlayerAdded)
+onPlayerAdded()
