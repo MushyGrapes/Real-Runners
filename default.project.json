@@ -32,7 +32,13 @@
     "ReplicatedFirst": {
       "$className": "ReplicatedFirst",
       "$path": "src/ReplicatedFirst",
-      "$ignoreUnknownInstances": true
+      "$ignoreUnknownInstances": false
+    },
+    
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "$path": "src/ReplicatedStorage",
+      "$ignoreUnknownInstances": false
     }
 
   }
