@@ -1,7 +1,7 @@
 local consoleCmds = require(game:GetService("ReplicatedStorage").Scripts.Console.consoleCmds)
 local Commands = require(game:GetService("ReplicatedStorage").Scripts.Console.Commands)
 local TextService =  game:GetService("TextChatService")
-
+local Players = game:GetService("Players")
 
 function MessageSent(message)
     for str= 1, #Commands do
