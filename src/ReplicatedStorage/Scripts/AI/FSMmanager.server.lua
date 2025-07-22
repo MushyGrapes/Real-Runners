@@ -63,7 +63,7 @@ local function StateCheck()
 		Timer.Enabled = false
 		Timer.Ending = false
 	end
-	print(Timer.Enabled)
+	
 end
 
 

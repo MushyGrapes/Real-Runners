@@ -38,7 +38,13 @@
     "ReplicatedStorage": {
       "$className": "ReplicatedStorage",
       "$path": "src/ReplicatedStorage",
-      "$ignoreUnknownInstances": false
+      "$ignoreUnknownInstances": true
+    },
+
+    "TextChatService": {
+      "$className": "TextChatService",
+      "$path": "src/TextChatService",
+      "$ignoreUnknownInstances": true
     }
 
   }
