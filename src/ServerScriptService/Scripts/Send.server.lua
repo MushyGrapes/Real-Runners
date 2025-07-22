@@ -6,7 +6,7 @@ local ConCurrentEnemies = {}
 
 Send.OnServerEvent:Connect(function(plr, ...)
     local arg = ...
-    local EnemyNum = arg[1]
+    --local EnemyNum = arg[1]
     local Positions = arg[2]
     local Id = arg[3]
     local Enemy
